@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
 
 namespace DnD
 {
@@ -98,12 +99,18 @@ namespace DnD
 
         public static void newCharacter()
         {
+            Console.WriteLine("Welcome to character creation!");
+            Console.WriteLine("First, input your race:");
+            string choice = Console.ReadLine();
+            string race = new String(choice.Where(Char.IsDigit).ToArray());
+            StreamReader sr = new StreamReader("c:\\home\\loganpixley\\races\\" + race + ".txt");
 
         }
 
         public static void accessCharacter()
         {
-
+            Console.WriteLine("What is the name of your character?");
+            string name = Console.ReadLine();
         }
     }
 }
