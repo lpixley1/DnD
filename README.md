@@ -1,2 +1,8 @@
 # DnD
-Program I'll be using in my D&amp;D campaigns, once it is done, feel free to use it. the README should have instructions. Message me if you don't understand something
+Creator: Logan Pixley
+
+Written in: c#
+
+This is for my D&D campaign that I am running. I'm mainly writing this so that I don't have to worry about sloppy notes for npc's and encounters, and so I can easily manage rolls and characters when I don't have dice or sheets on me.
+
+Once I have the character sheet functions working fully, I'll leave a descriptor on how to use them
